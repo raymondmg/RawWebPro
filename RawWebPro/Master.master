@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Master.master.cs" Inherits="Master" %>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<!-- 引入文件以及基础设置 -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <!-- 此模板的自定义 -->
+    <link href="css/justified-nav.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!--[IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- 抬头导航部分以及品牌名称 -->
+    <nav class="navbar nav-justified navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">D I G I T I G E R _</a>
+            </div>
+            <ul class="nav nav-pills pull-right">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Design</a></li>
+                <li role="presentation"><a href="#">Technologies</a></li>
+                <li role="presentation"><a href="#">Projects</a></li>
+            </ul>
+
+        </div>
+    </nav>
+     <!-- 华丽的分割线 -->
+      <hr style="height:5px;border:none;border-top:2px ridge blue;" />
+     <!-- 子页内容填充部分 -->   
+    <div class="container-fluid">
+        <div id="divmst_content">
+            <asp:ContentPlaceHolder ID="cph_content_temp" runat="server"></asp:ContentPlaceHolder>
+        </div>
+    </div>
+
+    <!--页脚部分 --> 
+    <footer  class="footer">
+        <div class="container-fluid bg-success">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Work With Us:</h4>
+                        <h4>Work With Us</h4>
+                        <h4>Work With Us</h4>
+                        <h4>Work With Us</h4>
+                        <h4>Work With Us</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>+8661998002</h4>
+                        <h4>+8661998002</h4>
+                        <h4>+8661998002</h4>
+                        <h4>+8661998002</h4>
+                    </div>
+                    <div class="col-md-4">
+                        <p>&copy;DigiTiger Communications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+      </body>
+   <!-- /container -->
+
+
+    <!-- Bootstrap 框架引入
+    ================================================== -->
+    <!-- 放置在最底部速度最快 -->
+    <script src="js/jquery-1.11.3.min"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</html>
