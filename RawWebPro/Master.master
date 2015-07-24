@@ -5,16 +5,15 @@
 <!-- 引入文件以及基础设置 -->
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！X-UA-Compatible -->
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
     <!-- 此模板的自定义 -->
     <link href="css/justified-nav.css" rel="stylesheet">
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!--[IE 9]>
@@ -47,9 +46,12 @@
     </nav>
      <!-- 华丽的分割线 -->
       <hr style="height:5px;border:none;border-top:2px ridge blue;" />
+
      <!-- 子页内容填充部分 -->   
     <div class="container-fluid">
+
         <div id="divmst_content">
+        
             <asp:ContentPlaceHolder ID="cph_content_temp" runat="server"></asp:ContentPlaceHolder>
         </div>
     </div>
@@ -89,4 +91,6 @@
     <script src="js/jquery-1.11.3.min"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+     
+  
 </html>
