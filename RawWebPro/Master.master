@@ -24,8 +24,11 @@
 
 <body>
     <!-- 抬头导航部分以及品牌名称 -->
-    <nav class="navbar nav-justified navbar-fixed-top">
-        <div class="container">
+    <div class="nav-main">
+        <div class="nav-content">
+            <p class="nav-brand">brand</p>
+        </div>
+<%--        <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -42,8 +45,8 @@
                 <li role="presentation"><a href="#">Projects</a></li>
             </ul>
 
-        </div>
-    </nav>
+        </div>--%>
+    </div>
      <!-- 华丽的分割线 -->
       <hr style="height:5px;border:none;border-top:2px ridge blue;" />
 
